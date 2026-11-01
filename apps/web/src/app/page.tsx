@@ -3,6 +3,7 @@ import AIAssistant from "@/components/AIAssistant";
 import ReminderSection from "@/components/ReminderSection";
 import ServicesSection from "@/components/ServicesSection";
 import WhyJibonova from "@/components/WhyJibonova";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -69,9 +70,7 @@ export default function Home() {
 
 
       {/* Footer */}
-      <footer className="border-t border-slate-100 py-6 text-center text-sm text-slate-500">
-        © 2026 Jibonova. All rights reserved.
-      </footer>
+<Footer />
 
     </main>
   );
